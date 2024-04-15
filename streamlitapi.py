@@ -1,13 +1,12 @@
-print("hello world")
-print("thank you")
+
 import pickle
 import streamlit as st
 import tensorflow as tf
 import keras 
 from tensorflow.keras.models import load_model
 
-    # Replace 'your_model.h5' with your actual model file path
-model = load_model('your_model.h5', "rb")
+    # Replace  with your actual model file path
+model = load_model('cervical_cancer_detection_model.keras', "rb")
 
 st.title("cervical Cancer Detection Model")
     
