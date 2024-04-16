@@ -1,6 +1,6 @@
 streamlit
 streamlit_option_menu
-tensorflow 2.15.0
+tensorflow 
 pandas
 numpy
 keras 2.15.0
