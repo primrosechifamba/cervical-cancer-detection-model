@@ -4,10 +4,8 @@ import streamlit as st
 import tensorflow as tf
 import keras 
 from tensorflow.keras.models import load_model
-import json
 import pandas as pd
 import numpy as np
-from tqdm import tqdm
 import cv2
 from collections import defaultdict
 from urllib import request
