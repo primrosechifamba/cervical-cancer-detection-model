@@ -5,7 +5,7 @@ import keras
 from tensorflow.keras.models import load_model
 
     # Replace 'your_model.h5' with your actual model file path
-model = load_model('cervical_cancer_detection_model.keras', "rb")
+model = load_model('cervical_cancer_detection_model.keras')
 
 st.title("cervical Cancer Detection Model")
     
