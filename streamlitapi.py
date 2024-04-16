@@ -3,16 +3,8 @@ import streamlit as st
 import tensorflow as tf
 import keras 
 from tensorflow.keras.models import load_model
-import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
-import tensorflow as tf
-from tensorflow.keras.layers import Dropout,Dense
-from keras.models import Model
-from keras.callbacks import EarlyStopping,ModelCheckpoint
-from sklearn import preprocessing
-from sklearn.preprocessing import OrdinalEncoder
 
-    # Replace  with your actual model file path
+    # Replace 'your_model.h5' with your actual model file path
 model = load_model('cervical_cancer_detection_model.keras', "rb")
 
 st.title("cervical Cancer Detection Model")
