@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 
 st.title("cervical Cancer Detection Model")
     
-model = load_model('./cervical_cancer_detection_model.keras')
+model = load_model('./cervical_cancer_detection_model.h5')
 
 
 
